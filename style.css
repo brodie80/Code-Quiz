@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.clearfix::after{
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+#navbar {
+  background-color: lightcyan;
+  display: inline-block;
+  width: 98vw;
+  border: 3px solid cyan;
+  border-radius: 5px;
+  margin: 6px;
+}
+
+#times {
+  display: block;
+  float: right;
+  color: darkcyan;
+}
+
+#result{
+  display: block;
+  float: left;
+  color: darkcyan;
+  text-decoration: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color :cyan;
+}
+
+#questionBox {
+  text-align: center;
+  padding: 12vh;
+}
+
+h2 {
+  padding: 10px 8px 10px 8px;
+}
+
+a {
+  text-decoration: none;
+  color: darkcyan;
+  float: right;
+}
+
+button {
+  border: none;
+  background-color: darkorchid;
+  color: black;
+  border-radius: 5px;
+  padding: 10px 16px 10px 16px;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 4px;
+}
+
+button:hover {
+  transition-duration: 0.4s;
+  background-color:whitesmoke;
+}
+
+#quiz {
+  text-align: center;
+}
+
+#questionBox, #choices {
+  text-align: center;
+  color: darkcyan;
+}
